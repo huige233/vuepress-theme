@@ -84,8 +84,8 @@ module.exports = [
             choosen: 'gitalk',
             options: {
                 clientID: 'c154a1998e9b05834092',
-                clientSecret: '682898756c8c3b178c94e0ef0937ff959ef76b3d',
-                repo: 'blog-gitalk-comment', // GitHub 仓库
+                clientSecret: 'c154a1998e9b05834092',
+                repo: 'vuepress-theme', // GitHub 仓库
                 owner: 'huige233', // GitHub仓库所有者
                 admin: ['huige233'], // 对仓库有写权限的人
                 // distractionFreeMode: true,
