@@ -25,7 +25,7 @@ fi
 git init
 git add -A
 git commit -m "${msg}"
-git push -f $githubUrl main:gh-pages # 推送到github gh-pages分支
+git push -f $githubUrl gh-pages # 推送到github gh-pages分支
 
 # deploy to coding pages
 # echo 'www.xugaoyi.com\nxugaoyi.com' > CNAME  # 自定义域名
@@ -38,7 +38,7 @@ else
 fi
 git add -A
 git commit -m "${msg}"
-git push -f $codingUrl main # 推送到coding
+git push -f $codingUrl gh-pages # 推送到coding
 
 cd -
 rm -rf docs/.vuepress/dist
