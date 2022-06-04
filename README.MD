@@ -43,4 +43,4 @@ npm run dev # or yarn dev
 ## 许可证
 [MIT](https://github.com/xugaoyi/vuepress-theme-vdoing/blob/master/LICENSE)
 
-Copyright (c) 2019-present Evan Xu
+Copyright (c) 2021-present Evan Xu
