@@ -23,6 +23,7 @@ else
   githubUrl=https://huige233:${GITHUB_TOKEN}@github.com/huige233/vuepress-theme.git
 fi
 git init
+git branch
 git add -A
 git commit -m "${msg}"
 git push -f $githubUrl gh-pages # 推送到github gh-pages分支
@@ -37,6 +38,7 @@ else
    codingUrl=https://HmuzsGrGQX:${CODING_TOKEN}@e.coding.net/huige233/vuepress-theme.git
 fi
 git add -A
+git branch
 git commit -m "${msg}"
 git push -f $codingUrl gh-pages # 推送到coding
 
