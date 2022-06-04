@@ -15,7 +15,7 @@ cd docs/.vuepress/dist
 git config --global user.name "huige233"
 git config --global user.email "huige1463@gmail.com"
 
-if [ -z "$GITHUB_TOKEN" ]; then
+if [ -z "$ACCESS_TOKEN" ]; then
   msg='deploy'
   githubUrl=git@github.com:huige233/vuepress-theme.git
 else
