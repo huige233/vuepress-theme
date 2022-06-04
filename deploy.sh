@@ -15,7 +15,7 @@ cd docs/.vuepress/dist
 git config --global user.name "huige233"
 git config --global user.email "huige1463@gmail.com"
 
-if [ -z "$ACCESS_TOKEN" ]; then
+if [ -z "$GITHUB_TOKEN" ]; then
   msg='deploy'
   githubUrl=git@github.com:huige233/vuepress-theme.git
 else
@@ -26,7 +26,7 @@ git init
 git branch -m master gh-pages
 git add -A
 git commit -m "${msg}"
-git push -f $githubUrl origin gh-pages # 推送到github gh-pages分支
+git push -f $githubUrl gh-pages # 推送到github gh-pages分支
 
 # deploy to coding pages
 # echo 'www.xugaoyi.com\nxugaoyi.com' > CNAME  # 自定义域名
