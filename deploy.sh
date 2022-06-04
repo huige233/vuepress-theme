@@ -38,7 +38,7 @@ else
 fi
 git add -A
 git commit -m "${msg}"
-git push -f $codingUrl master # 推送到coding
+git push -f $codingUrl main # 推送到coding
 
 cd -
 rm -rf docs/.vuepress/dist
