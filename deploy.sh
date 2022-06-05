@@ -12,14 +12,15 @@ cd docs/.vuepress/dist
 # deploy to github pages
 # echo 'b.xugaoyi.com' > CNAME
 
+git config --global user.name "huige233"
+git config --global user.email "huige1463@gmail.com"
+
 if [ -z "$GITHUB_TOKEN" ]; then
   msg='deploy'
   githubUrl=git@github.com:huige233/vuepress-theme.git
 else
   msg='来自github actions的自动部署'
   githubUrl=https://huige233:${GITHUB_TOKEN}@github.com/huige233/vuepress-theme.git
-  git config --global user.name "huige233"
-  git config --global user.email "huige1463@gmail.com"
 fi
 git config --global http.sslverify "false"
 git config --global url."https://".insteadOf git://
