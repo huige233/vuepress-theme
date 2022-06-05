@@ -32,7 +32,6 @@ jobs:
           CODING_TOKEN: ${{ secrets.CODING_TOKEN }}
         run: 
             npm install && npm run build 
-            cd docs/.vuepress/dist && touch .nojekyll
       - name: Deploy # 步骤3
         uses: JamesIves/github-pages-deploy-action@v4.3.3
         with:
