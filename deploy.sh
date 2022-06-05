@@ -22,6 +22,8 @@ else
   msg='来自github actions的自动部署'
   githubUrl=https://huige233:${GITHUB_TOKEN}@github.com/huige233/vuepress-theme.git
 fi
+git config --global http.sslverify "false"
+git config --global url."https://".insteadOf git://
 git init
 git branch -m master gh-pages
 git add -A
