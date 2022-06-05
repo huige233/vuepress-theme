@@ -20,7 +20,7 @@ if [ -z "$GITHUB_TOKEN" ]; then
   githubUrl=git@github.com:huige233/vuepress-theme.git
 else
   msg='来自github actions的自动部署'
-  githubUrl=https://huige233:${GITHUB_TOKEN}@github.com/huige233/vuepress-theme.git
+  githubUrl=https://${GITHUB_TOKEN}@github.com/huige233/vuepress-theme.git
 fi
 git config --global http.sslverify "false"
 git config --global url."https://".insteadOf git://
