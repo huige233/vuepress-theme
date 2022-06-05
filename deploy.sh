@@ -19,7 +19,9 @@ else
   msg='来自github actions的自动部署'
   githubUrl=https://huige233:${GITHUB_TOKEN}@github.com/huige233/vuepress-theme.git
   git config --global user.name "huige233"
+  echo usename right
   git config --global user.email "huige1463@gmail.com"
+  echo useemail right
 fi
 git init
 git add -A
