@@ -87,7 +87,7 @@ module.exports = [
                 clientSecret: 'c762a4de1b928eb811012a3991aa7d8caf32de8c',
                 repo: 'vuepress-theme', // GitHub 仓库
                 owner: 'huige233', // GitHub仓库所有者
-                admin: ['huige233'], // 对仓库有写权限的人
+                admin: ['huige233', 'lijiakaijun'], // 对仓库有写权限的人
                 // distractionFreeMode: true,
                 pagerDirection: 'last', // 'first'正序 | 'last'倒序
                 id: '<%- (frontmatter.permalink || frontmatter.to.path).slice(-16) %>', //  页面的唯一标识,长度不能超过50
