@@ -8,7 +8,7 @@ module.exports = {
 
   title: "huige233's blog",
   description: '一些碎碎念和杂谈',
-  base: '/', // 格式：'/<仓库名>/'， 默认'/'
+  base: '/vuepress-theme/', // 格式：'/<仓库名>/'， 默认'/'
   markdown: {
     lineNumbers: true, // 代码行号
   },
